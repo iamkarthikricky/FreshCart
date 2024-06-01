@@ -1,0 +1,357 @@
+.z{
+    border: 1px solid red;
+}
+
+
+.slide-container{
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:8%;
+    padding-left: 6%;
+}
+.slide1{
+    background-image: url("https://res.cloudinary.com/dlwydxzdi/image/upload/v1717073592/ShoppingClone/slide-1_ywjzop.jpg");
+}
+.slide2{
+    background-image: url("https://res.cloudinary.com/dlwydxzdi/image/upload/v1717073592/ShoppingClone/slider-2_dwfgxl.jpg");
+}
+
+.slide-offer{
+    width:max-content;
+    height: 20px;
+    background-color: #FFC107;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.slide-content{
+    width: 250px;
+}
+.slide-heading{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.slide-para{
+    font-size: 18px;
+    color: #5C6C75;
+    font-weight: 400;
+}
+
+
+
+.categories-container .slick-slide {
+    padding:0px 10px 0px 0px;
+    box-sizing: border-box;
+    height: 250px;
+}
+  
+  
+
+.categories-container .slick-slider{
+    margin-top: 40px;
+}
+
+
+.product-slide{
+    margin-top: 20px;
+    height: 200px;  
+    border: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    align-self: center;
+    border-radius: 8px;
+}
+.product-slide p{
+    margin-top: 5px;
+    font-size: 16px;
+    color: #5C6C75;
+    font-weight: 500;
+}
+.product-slide:hover{
+    border-color: #0AAD0A;
+    transition: 0.1ms;
+    transform: scale(1.01);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+
+
+.categories-container .slick-prev .slick-next{
+  display: none;
+}
+
+
+.slick-btn{
+    background-color: #ECF0EF;
+    border: none;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+.slick-btn:hover{
+    background-color: #0AAD0A;
+    color: white;
+}
+
+
+
+
+.sub-heading{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bg-card{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+.daily-deals-main-container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    overflow-y: hidden;
+    overflow-x:auto;
+    padding:10px 0px 10px 0px;
+    flex-grow: 1;
+}
+.daily-deals-container{
+    min-width: 290px;
+    background-image: url("https://res.cloudinary.com/dlwydxzdi/image/upload/v1716549643/ShoppingClone/banner-deal_hnwm7u.jpg");
+ 
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.deals-container{
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+.deal-heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+.deal-description{
+    font-size: 18px;
+    font-weight: 400;
+}
+.shop-btn{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    color: #f9f9f9;
+    height: 40px;
+    width: 150px;
+    background-color: #0AAD0A;
+    font-size: 16px;
+}
+
+.card{
+    margin: 0px 0px 2px 8px;
+    min-width: 300px;
+}
+.card-body{
+    line-height: 8px;
+}
+.deal-category{
+    color: #5C6C75B5;
+    font-size: 15px;
+}
+
+.wishlist-container{
+    width: 100%;
+    display: none;
+    flex-direction: row;
+    justify-content:center;
+    align-items: last baseline;
+    height: 50%;
+    padding-top: 50px;
+    position:absolute;
+    z-index: 1;
+}
+.wishlist-btn{
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.wishlist-btn:hover{
+    background-color: #0AAD0A;
+    color: white;
+}
+
+
+.deal-item-view-container{
+    width: 100%;
+    position:relative;
+    z-index: 0;
+}
+
+.card:hover{
+    border-color: #0AAD0A;
+    transition: 0.1ms;
+    transform: scale(1.01);
+}
+.card:hover  .wishlist-container{
+   display: flex;
+}
+
+.deal-item-name{
+    color:#21313C;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn{
+    width: 250px;
+    background-color: #0AAD0A;
+    border: none;
+}
+
+.item-cost{
+    font-size: 14px;
+    font-weight:500;
+}
+.price{
+    text-decoration: line-through;
+    color: #5C6C75;
+}
+.price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 10px;
+}
+.rating-view-container{
+    display: flex;
+    flex-direction: row;
+    align-items:last baseline;
+    flex-wrap: wrap;
+}
+.deals-rating{
+    margin-bottom: 0px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: #5C6C75;
+}
+
+
+
+.feature-container{
+    margin:10px 0px 10px 0px;
+}
+.feature-heading{
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #21313C;
+}
+.feature-para{
+    font-size: 16px;
+    color: #5C6C75;
+}
+
+
+.product-card{
+    flex-grow: 1;
+    padding:10px;
+    border-radius: 8px;
+    margin:15px 0px 15px 15px;
+    height: auto;
+    border: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.product-container{
+    width: 100%;
+    position:relative;
+    z-index: 0;
+}
+
+.product-card-wishlist-container{
+    height: 50%;
+    width: 100%;
+    padding-top: 50px;
+    position:absolute;
+    z-index: 1;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
+.product-card:hover{
+    border: 1px solid #0AAD0A;
+    transition: 2ms;
+    transform: scale(1.02);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.product-card:hover .product-card-wishlist-container{
+    display: flex;
+}
+
+.special-btn{
+    margin-bottom: 5px;
+    border: none;
+    font-size: 14px;
+    width: 50px;
+    color: white;
+    height: 25px;
+    border-radius: 8px;
+}
+.product-img{
+    width: 100%;
+}
+
+
+
+.product-category{
+    color: #5C6C75B5;
+    font-size: 12px;
+    margin: 0px;
+}
+.product-name{
+    color:#21313C;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+
+
+.add-btn{
+    border-radius: 8px;
+    font-size: 16px;
+    width: 70px;
+    background-color: #0AAD0A;
+    border: none;
+    color: #f9f9f9;
+}
